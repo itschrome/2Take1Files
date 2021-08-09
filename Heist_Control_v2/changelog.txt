@@ -1,0 +1,493 @@
+For future versions, visit:
+https://github.com/jhowkNx/Heist-Control-v2/releases
+or 2TAKE1 Official Discord 
+       - - - - - - - - - - - - - - - - - - 
+	[Script developed by jhowkNx - jkNX]
+	    [Made to 2TAKE1 Menu]
+
+Heist Control 2.9.1
+
+- Added back option to remove daily sell limit (LSC)
+- Fixed Quick Preset difficulty
+- Fixed a small notification issue
+- Removed duplicated texts
+##############################################################
+Heist Control 2.9.0
+
+	## Cayo Perico Heist 
+
+- Reworked Cayo Perico Presets
+- Added Automated Presets:
+     - The percentages are already split for each member, you don't have to do anything. Just steal and run away!
+     - Sapphire Panther
+     - Ruby Necklace
+- Added Standard Preset
+- Added protection to prevent the user from changing important preset settings
+(You can still choose weapons, vehicle and spawn equipments/truck positions)
+- Added 'Custom Teleport'
+- Improved Quick Preset
+- Adjusted Pavel/Fency Fee cut removal
+- Adjusted Players Cut (Percentage)
+- Reduced the amount of secondary loot
+- Fixed 'Remove Compound loot' was affecting the value of Island loot
+- Removed weekly event presets (it will back in the next bonus event)
+- Removed many primary presets
+
+	## Diamond Casino Heist
+- Improved many notifications
+
+	## Classic Heists
+- Fixed 'Unlock Awards' it was not showing in the menu
+
+	## Master Unlocker
+- Added Valentine Unlocks
+- Added Independence Day Unlocks
+- Added Halloween Unlocks (masks, facepaints and more)
+- Added XMAS Content Unlocks (clothings)
+- Added "Unlock Hats/T-Shirts/Shirts" (a lot of stuffs)
+- Added Arena DLC Unlocks (clothings)
+- Added Arcade DLC Unlocks (clothings)
+- Added Summer 2020 Unlockes (clothings)
+- Added Returning player bonus content + "Up-N-Atomizer" festive tint (free cars and t-shirts)
+- Removed 'Vehicle sell daily limit' - useless
+
+	# LS Tuners DLC
+- Improved unlock vehicle prize
+- Improved unlock drip fed outfits
+
+	# GENERAL
+- Various code improvements
+- Fixed bug that was preventing a stats value from being changed correctly
+- A small change was added to avoid notification spam
+##############################################################
+Heist Control 2.8.0
+
+   # Cayo Perico Heist
+    # Added Quick Preset "[1-4 Players] $2.5 Millions"
+       - An ultra-modified preset, you can play solo or with several friends, the money will be the same to everyone.
+       - The values will be different in the heist finale, but if you check in online players, they will receive the correct money
+
+    # Added "Advanced Features"
+     + Added Bag capacity modifier
+     + Added "Players Cut"
+     + Added "Remove Fencing Fee & Pavel Cut"
+     + Added Teleport to Kosatka
+
+   # Diamond Casino Heist
+    # Added "Advanced Features"
+     + Added "Modify Preset to max payout" (Pays $3.4 millions to everyone)
+     + Added "Increase potential take"
+     + Added "Players Cut"
+     - Moved "Remove Crew Payout" to Advanced Features
+
+   # Doomsday Heist
+     + Added "Players Cut"
+     + Added option to get $2.4 Millions per player (ACT 2 only)
+
+   # Classic Heists
+     + Added "Your Cut" (Host only)
+     + Added 10 Million Payout (Fleeca Heist, host only)
+     - Renamed "High-End Apartment Heists" to Classic Heists
+
+   # LS Tuners Robbery
+     + Added "Increase contracts payout" (1 million) (affects you only)
+     + Added option to reset missions
+
+   # Master Unlocker
+    + Added Cayo Perico Unlockables
+
+     # LS Tuners DLC
+     + Added "Unlock Drip Feed Vehicles"
+     + Added "Unlock Drip Feed Clothing"
+
+   # Others
+     - Code improvements
+     - Updated About HC
+
+WARNING:
+- Features for high payments has been tested by me since a long time (+1yo) while using CE, stats editor and this script, but now i've implemented such feature to the Heist Control, since none of thoses features are detected atm. May it can change if it became more popular... as always, use at your own risk!
+
+- "Modify Contracts Payout" is pretty new and no idea if it can be bannable, use at your own risk!
+
+Known Issues:
+- Loading any other script before Heist Control may triggers weekly event notification (spam), i am current looking into it.
+
+#####################################################################
+
+Heist Control [2.7.1] Hotfix
+
+-  Added missing contract  "Union Depository"
+-  Removed "Trade Price" description from LS Tuners DLC
+
+#####################################################################
+Heist Control [2.7.0]
+
+# General
+
+ * Added "LS Tuners Contracts"
+   - The Superdollar Deal
+   - The Bank Contract
+   - The ECU Job
+   - The Prison Contract
+   - The Agency Deal
+   - The Lost Contract
+   - The Data Contract
+   - Complete missions only
+   - Reset Contracts
+
+# Master Unlocker
+
+ * LS Tuners DLC
+   + Added Unlock Awards
+   + Added Unlock Vehicle Challenge & Trade Price"
+
+ * Updated XMAS Liveries
+   + Added 4 new liveries
+
+#####################################################################
+Heist Control [v2.6.0]
+
+# GENERAL
+
+ - Added Trusted Mode Check
+ * Heist Control will only start if Trusted Mode is activated.  (thx to Wolfry/Kektram/Proddy)
+
+# Cayo Perico Heist
+
+ - Secondary Loot:
+  * Added ability to change or remove certains loots from Compound
+  * Fixed "Paint loot" sometimes did not appear in all available places
+
+# Master Unlocker
+
+ - Added "Mental State"
+     - Maximum
+     - Half
+     - Remove
+#####################################################################
+
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	   v2.5.1
+# # # # # # # # # # # # # # # #
+
+- Minor improvements
+
+#####################################################################
+
+
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	   v2.5.0
+# # # # # # # # # # # # # # # #
+
+	# GENERAL
+
+- Improved compatibility to 2TAKE1 v2.29.0
+- Added a new function (stat_set_float) for upcoming updates
+- Added support for the new notification system
+- Added Rebreather to Refill Inventory
+- Awards no longer require two categories to unlock, from now, INT (Integer) and BOOL (Boolean) are all in one
+- Remove Repeat Cooldown no longer has a warning string
+- Remove Orbital Cannon Cooldown is no longer a toggle option
+- Some texts have been improved to be clear as possible to understand
+- Updated tutorial.txt
+
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	 v2.4.1 (Hotfix)
+# # # # # # # # # # # # # # # #
+
+
+- Improved (4 Players) Presets.
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	  v2.4.0
+# # # # # # # # # # # # # # # #
+
+	# Cayo Perico Heist
+
+- Added: Random Preset
+- Added: Complete all missions only
+- Added: Force the longest final cutscene
+- Adjusted all Preset for 4 Players (25% for each player)
+- All 4 player's presets have been readjusted to prevent a bug that could happen in rare cases, where members didn't receive their money correctly. (even obeying the cooldown)
+
+	#  Diamond Casino Heist
+
+- Added: Random Preset
+- Added: Unlock Patrick McReary (experimental)
+
+	# Others
+
+- General Improvements
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	   v2.3.0
+# # # # # # # # # # # # # # # #
+
+	# Cayo Perico Heist
+
+- Added to all presets the Key to unlock 'Perico Pistol' at El Rubio Office
+- Added: Set Secondary Target to Mixed, Cash, Coke, Weed and Gold.
+
+	# Diamond Casino Heist
+
+- Added: Information about crew Hacker when choosing from 'Planning Board (2)'
+- Added: Information about crew Driver when choosing from 'Planning Board (2)'
+- Fixed: Crew hacker member 'Christian Feltz & Yohan Blair' were reversed
+
+	# Master Unlocker
+
+- Added: Don't Cross The Line Tee
+
+	# General
+
+- Minor Improvements
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	      v2.2.0
+# # # # # # # # # # # # # # # #
+
+	# General
+
+- The encryption has been removed. (Allowing you to change, add other functions and translate as you wish).
+
+	# Cayo Perico Heist
+
+- Added: 2 Player Method (Host: 15% and Player2: 85%) (Normal Method only)
+
+	# Diamond Casino Heist
+
+- Fixed: 'Remove Mask' will now remove correctly
+
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	      v2.1.0
+# # # # # # # # # # # # # # # #
+
+	# Cayo Perico Heist
+
+- Added: Message about Loots/Vehicles and Weapon Loadout (Presets)
+- Changed: All Weapon Loadout from presets has been modified to Marksman
+- Fixed: Pink Diamond Preset (Normal and Event Method - Solo only) (thx to 'vcafezinho' for reporting it)
+
+	# Diamond Casino Heist
+
+- Added: Message about Loot/Crew Members and Loadouts (Presets)
+- Added: Option to Remove Mask
+- Changed: All mask from presets has been modified to Hunter Set
+
+	# Doomsday Heist
+
+Improvement: Stats have been adjusted to allow Lester to cancel the Heist. (ACT I, II and III)
+
+	# Master Unlocker
+
+- Minor improvements
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	      v2.0.1
+# # # # # # # # # # # # # # # #
+
+	# Fixes
+
+- Fixed: Remove all Secondary Target (Cayo Perico)
+- Fixed: Unlock all XMAS Liveries
+- Fixed: Remove Car Daily Limit (still has a server-side payout limit so...)
+- Fixed: Remove Repeat Cooldown button
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	      v2.0.0
+# # # # # # # # # # # # # # # #
+
+# News
+
+- Added: Leave the Session (credits to haekkzer)
+- Script reworked to avoid some LUA limitations
+
+	# Cayo Perico Heist
+
+- Added: (Insta-Play) Presets - you don't need to pay to start
+- Added: All Primary Target options (Insta-Play)
+- Added: Hard and Normal difficulty presets (Insta-Play)
+- Added: Supply Truck Location
+- Implemented message about bonus event
+- Aprimored: Loot values (all presets)
+- Modified: 3 players method; advised percentage are now (Host: 20% - Players: 40% 40%)
+- Modified: Outside Compound loot has been changed to Mixed
+- Modified: Compound loot has been changed to Gold instead of Coke (to be less suspicious)
+- Fixed: Fill Your Bags (Award)
+- Removed: All secondary target options to set 'full X or Y' for bein' useless
+- Removed: Loot Generator
+- Removed: message about bag size
+
+	# Diamond Casino Heist
+
+- Added: Many missing Awards stats (int & bool)
+- Added: Name of all masks
+- Improved: Gunman member to each Approach (Insta-Play)
+- Fixed: 'Remove All Members' will now remove all members correctly
+- Fixed: Gunman members was reversed when choosing from Planning Board (2)
+- Fixed: "Approach Locker" was being applied when using 'Change Approach and Difficulty" from Planning Board (1)
+
+	# Master Unlocker
+
+- Added: Vanilla Unicorn Award
+- Added: Daily Objective Awards (experimental)
+
+	# Doomsday Heist
+
+- Moved: All ACT's to a Insta-Play tab
+
+~~~ 
+NOTE:
+50% Bonus - Weekly event (Cayo Perico Heist) is over!
+Check at 'Rockstar newswire' when it will be on again.
+Don't waste your time using the event method while the event is off!
+#####################################################################
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	v1.4.1 ~ Hotfix
+# # # # # # # # # # # # # # # #
+
+	# Changes
+
+- Implemented message about server-side cooldown
+- Implemented message about bag size override
+- Loot Generator: Changed Pink Diamond to Sapphire Panther as primary target (Weekly Event)
+- Loot Generator: Updated '50% Bonus' weekly event values
+- Casino Heist: Changed vehicle variation & weapon crew member (Insta-Play)
+- Night Club Awards: Added missing stats (int & bool)
+- Arena Awards: Added missing stats (bool)
+- Apartment Awards: Added missing stats (int)
+- Arcade Awards: Added missing stats (int)
+- Arcade Awards: Removed duplicated stats
+- Bunker Awards: Fixed bool stat
+- Removed Basic LUA Encryption (Looks like some ppl got mad cos that lol)
+
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	    v1.4
+# # # # # # # # # # # # # # # #
+	~ Changelog
+
+ # New Feature: Master Unlocker
+
+  + Added: Unlock all XMAS Liveries (+Unreleased ones)
+  + Added: Arena War Awards (+Trophys and Toys)
+  + Added: Night Club Awards (+Increase Club Popularity)
+  + Added: Arcade Awards (+Trophys and Toys)
+  + Added: Money, drugs and more to the Office and MC (+Cosmetic items)
+  + Added: Remove Vehicle sell daily limit
+  + Added: Unlock Shotaro (No more missions)
+  + Added: Summer 2020 Awards
+  + Added: Unlock Yacht Missions
+  + Added: Alien Tatto (Exclusive)
+  + Added: Skip Lamar Missions to the last setup
+  + Added: Unlock Flight School Awards
+  + Added: Fast Run and Reload
+  + Added: Remove Orbital Cannon cooldown (risky)
+  + Added: Fill up the Inventory
+  + Added: Unlock some vehicles trade price
+  + Added: Unlock all Contacts in your phone
+  + Added: Unlock Bunker Awards (+Trigger Alien Egg Mission)
+
+	# Cayo Perico Heist
+  + Added: Loot Generator for the Weekly Event (Payout up to 4.1millions)
+
+ * Updated loot value for SOLO (Loot Generator)
+ * Fixed: Target and Heist difficulty was not being applied to Loot Generator (4 Players)
+
+	# Doomsday
+
+ + Added two new Awards
+ * (RE)Improved 'Unlock all Doomsday Heist'
+
+	# Others
+- General improvements
+# # # # # # # # # # # # # # # #
+	Heist Control 
+	    v1.3
+# # # # # # # # # # # # # # # #
+	~ Changelog
+
+	# Cayo Perico
++ Added weapon loadouts information 
++ Added primary target value information
+- Improved 'Force items to spawn at Docks'
+- Updated the 'Loot Generator' for 2 players
+- Applied 'Mixed loot' into Insta-Play by default
+
+	# Diamond Casino
++ Added more Awards stats for Diamond Casino (Casino Missions Related)
++ Added 'Remove all crew member'
+- Improved all preset's value
+
+	# Doomsday
++ Added Set Heist to default (Reset)
+- Updated ACT 2 stat value
+- Improved 'Unlock all Doomsday Heist'
+
+	# Others
+ - Updated various codes/colors
+ - Many internal improvements has been made
+
+# # # # # # # # # # # # # # # #
+	Heist Control
+	    v1.2
+# # # # # # # # # # # # # # # #
+	~ Changelog
+	# Cayo Perico Heist
+
+[New] Loot Generator for Cayo Perico Heist - such method gives 2.5mi for each player
+
++ Added specific loot to get max money with Cayo Perico (Solo only) (full bag)
++ Added specific loot for 2 players (50% ~ 50%) -  (everyone must get full bag)
++ Added specific loot for 3 players (30% ~ 35%) - (everyone must get full bag)
++ Added specific loot for 4 players (25% for each one) -  (everyone must get full bag)
+
++ Added 'Mixed Loot'  (This add gold, cocaine, weed and money around the map)
++ Added some more _V variations that were missing after the last update
+
++ Added 'Set Equipments Location' (Grappel, Guard Uniform, Bolt Cutter and Supply Truck)
+  + Added 3 news places: North Dock, Main Dock & next to Compound
+   * Improved Equipments spawn to Airport
+
+
+	# Diamond Casino Heist
+
++ Added Normal Difficulty to the all 'Insta-Play' presets
++ Added Remove Repeat Cooldown
+- Fixed: Gruppe Sechs was not available for BigCon (Insta-Play)
+
+	# Doomsday Heist
+
++ Added Awards Unlocker
+
+	# Apartment Heists
+
++ Added Awards Unlocker
+
+ # Others
+* Various others texts have been aprimored
+
+# # # # # # # # # # # # # # # #
+Changelog - 1.1
+
++ Added some randoms variations for The Diamond Casino Heist  (thx to haekkzer)
++ Added  _V  variation for The Cayo Perico Heist - Secondary Target (thx to ME#7210)
++ Added option to Reset Cayo Perico and Casino Heist's
++ Moved Casino Awards to a submenu
+* Improved several texts
+# # # # # # # # # # # # # # # #
+Changelog -  1.0
+
+~ Initial Build

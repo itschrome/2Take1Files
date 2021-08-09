@@ -1,0 +1,16 @@
+# How to install the script?
+ - Just move the "Heist-Control-v2.lua" to Scripts folder
+ - Open your menu, go to Scripts, enable the "Trusted Mode"
+ - Execute Heist Control then back to "Script Features"
+  Enjoy!
+------------------------------------------------------------------------------------
+You can watch such videos of how to use certain script functions.
+
+How to install + Casino Heist setting up:
+https://www.youtube.com/watch?v=SL91I9XeY-s
+
+Cayo Perico:
+https://www.youtube.com/watch?v=eMGzRZmDaiE
+
+[OLD] Diamond Casino Heist:
+https://www.youtube.com/watch?v=g10ENWBThG4
